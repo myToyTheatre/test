@@ -399,7 +399,7 @@ outputText("Script Started");
 	
  	//raise the curtain
  	
- 	if (sceneCountValue == 5){
+ 	if (sceneCountValue == 2){
 
 	 mainCurtainMoveUp(-570,20)
 	 outputText("Curtain Up");
@@ -409,7 +409,7 @@ outputText("Script Started");
 
 // bring up the lights once curtain is raised
 
-	if (sceneCountValue == 10){
+	if (sceneCountValue == 7){
 
 	lightsUp(0,30);
 	 outputText("Lights Up");
@@ -417,7 +417,7 @@ outputText("Script Started");
 	
 	}
 	
-		if (sceneCountValue == 12){
+		if (sceneCountValue == 10){
 	 var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
     audio.play()
       outputText("Play Traviata");
