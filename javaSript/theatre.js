@@ -405,7 +405,7 @@ function directScene()
 
 
 
-if (sceneCountValue == 1){
+if (sceneCountValue == 5){
 	
 
 //outputText("Script Started");
