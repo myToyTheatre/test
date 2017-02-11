@@ -409,14 +409,14 @@ if (sceneCountValue == 1){
 	
 
 outputText("Script Started");
-// this audio now worked for iPhone just neet to call startMyTimer from click event cant stream 2 audios concurrently need to premix
+// this audio now worked for iPhone just need to call startMyTimer from click event cant stream 2 audios concurrently need to premix
 
 
  
 
-//var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
-    //audio.play()
-      //outputText("Play Traviata");
+var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
+    audio.play()
+      outputText("Play Traviata");
 
 }
 	
@@ -450,9 +450,9 @@ outputText("Script Started");
 	}
 	
 		if (sceneCountValue == 15){
-	 var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
-    audio.play()
-     outputText("Play Traviata");
+	 //var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
+   // audio.play()
+     //outputText("Play Traviata");
       
       
    
