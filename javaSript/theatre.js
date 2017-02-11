@@ -405,11 +405,11 @@ function directScene()
 
 
 
-if (sceneCountValue == 5){
+if (sceneCountValue == 1){
 	
 
 //outputText("Script Started");
-// this audio works here for iPhone just need to call startMyTimer from click event cant stream 2 audios concurrently need to premix
+// this audio works here an only here at first iteration ==1 for iPhone cant stream 2 audios concurrently need to premix
 // sound on iphone only works here is script!!!!
 
  
