@@ -412,12 +412,7 @@ outputText("Script Started");
 // this audio now worked for iPhone just neet to call startMyTimer from click event cant stream 2 audios concurrently need to premix
 
 
- // play Applause
  
-var audio = new Audio('Audio/applause-1.ogg');
-    audio.play()
-     
-   outputText("Play Applause");
 
 //var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
     //audio.play()
@@ -432,6 +427,14 @@ var audio = new Audio('Audio/applause-1.ogg');
 
 	 mainCurtainMoveUp(-570,20)
 	 outputText("Curtain Up");
+		
+		
+		// play Applause
+ 
+var audio = new Audio('Audio/applause-1.ogg');
+    audio.play()
+     
+   outputText("Play Applause");
 	
 	}
 	
