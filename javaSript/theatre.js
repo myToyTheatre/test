@@ -431,10 +431,10 @@ outputText("Script Started");
 		
 		// play Applause
  
-//var audio = new Audio('Audio/applause-1.ogg');
-    //audio.play()
+var audio = new Audio('Audio/applause.mp3');
+    audio.play()
      
-   //outputText("Play Applause");
+   outputText("Play Applause");
 	
 	}
 	
@@ -450,9 +450,9 @@ outputText("Script Started");
 	}
 	
 		if (sceneCountValue == 15){
-	 var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
-    audio.play()
-      outputText("Play Traviata");
+	 //var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
+    //audio.play()
+     // outputText("Play Traviata");
       
       
    
@@ -519,9 +519,9 @@ moveActor2Right  (80, 10)
  
  // try audio here
  
-// var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
-    //audio.play()
-     // outputText("Play Traviata");
+var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
+    audio.play()
+      outputText("Play Traviata");
 
  
 
