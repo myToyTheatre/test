@@ -431,10 +431,10 @@ outputText("Script Started");
 		
 		// play Applause
  
-var audio = new Audio('Audio/applause-1.ogg');
-    audio.play()
+//var audio = new Audio('Audio/applause-1.ogg');
+    //audio.play()
      
-   outputText("Play Applause");
+   //outputText("Play Applause");
 	
 	}
 	
