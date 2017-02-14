@@ -422,7 +422,7 @@ function directScene()
 
 
 
-if (sceneCountValue == 5){
+if (sceneCountValue == 1){
 	
 
 outputText("play applause");
