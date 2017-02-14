@@ -443,7 +443,7 @@ var audio = new Audio('Audio/TraviataSA.mp3');
       // test for audio play start as potential aid to audio sync
       
       audio.onplay = function() {
-    alert("The audio has started to play");
+    alert("Traviata has started to play");
 }
 }
 	
