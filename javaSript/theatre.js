@@ -795,7 +795,7 @@ moveActor1Left  (555, 5)
 	if (sceneCountValue == 500){
 	 
 	
-	 actor1.src= "images/GRCarmhigh.png";
+	 actor1.src= "images/GLC.png";
 	  
 	
 
