@@ -1,0 +1,169 @@
+
+body {
+	margin: 0;
+}
+
+
+
+
+
+
+
+div.toyTheatreSpace {
+    position: relative;
+    width: 980px;
+    height: 1060px;
+    margin: 0px;
+    border: 0px solid green;
+    padding: 0px;
+    background-color: rgb(156,43,40);
+    /*color: black;*/
+    overflow: hidden;
+   
+   
+    
+}
+
+
+
+*.image
+{
+   position: absolute;
+   z-index: 100;
+}
+
+
+div.theatreOutputs {
+    position: relative;
+    bottom: 0px;
+    Left: 0px;
+    width: 980px;
+    height: 50px;
+    margin: 0px;
+    border: 0px solid orange;
+    padding: 0px;
+    background-color:rgb(156,43,40);
+    
+} 
+
+
+
+
+
+div.theatreControls {
+    position: relative;
+    bottom: 0px;
+    Left: 0px;
+    width: 960px;
+    height: 150px;
+    margin: 0px;
+    border: 0px solid black;
+    padding: 10px;
+    background-color: rgb(209,54,51);
+    
+} 
+
+
+
+
+
+.theatreControls {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+    
+label {
+
+font-family: calibri;
+font-size: 35px;
+color: white;
+    
+    }
+
+    
+a {
+
+font-family: calibri;
+font-size: 25px;
+color: white;
+text-align: center;
+    }
+
+
+
+*.image2
+{
+   position: absolute;
+   z-index: -1;
+}
+
+div.footer1 {
+    position: relative;
+    width: 960px;
+    height: 100px;
+    margin: 0px;
+    border: 0px solid red;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    
+}
+
+.footer1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+div.footer {
+    position: absolute;
+    width: 980px;
+    height: 50px;
+    margin: 0px;
+    border: 0px solid red;
+    padding: 0px;
+    background-color:black;
+    color: white;
+    
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+p {
+font-family: calibri;
+font-size: 30px;
+color: white;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
