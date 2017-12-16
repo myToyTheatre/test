@@ -598,7 +598,7 @@ moveActor1Left  (555, 5)
 
 	//}
 	
-	if (sceneCountValue == 148){
+	if (sceneCountValue == 150){
 	 
 	 actor2.src= "images/BRO.gif";
 	  outputText("Male Sings");
@@ -629,7 +629,7 @@ moveActor1Left  (555, 5)
  
 	//}
 	
-	if (sceneCountValue == 229){
+	if (sceneCountValue == 231){
 	
 	actor2.src= "images/BRC.gif";
 	outputText("Chorus");
@@ -640,7 +640,7 @@ moveActor1Left  (555, 5)
 	
 	
 	
-	if (sceneCountValue == 245){
+	if (sceneCountValue == 247){
 	
 	actor1.src= "images/GLO.png";
 	outputText("Lady Sings");
@@ -649,7 +649,7 @@ moveActor1Left  (555, 5)
  
 	}
 	
-	if (sceneCountValue == 325){
+	if (sceneCountValue == 327){
 	
 	actor1.src= "images/GLC.gif";
 	outputText("Chorus");
@@ -660,7 +660,7 @@ moveActor1Left  (555, 5)
 	
 	
 	
-	if (sceneCountValue == 360){
+	if (sceneCountValue == 362){
 	
 	actor1.src= "images/GLO.png";
 	outputText("Lady Sings");
@@ -670,7 +670,7 @@ moveActor1Left  (555, 5)
 	}
 	
 	
-	if (sceneCountValue == 367){
+	if (sceneCountValue == 369){
 	
 	actor2.src= "images/BRO.gif";
 	actor1.src= "images/GLC.gif";
@@ -684,7 +684,7 @@ moveActor1Left  (555, 5)
 	
 	
 	
-	if (sceneCountValue == 374){
+	if (sceneCountValue == 376){
 	 
 	 actor2.src= "images/BRC.gif";
 	 actor1.src= "images/GLO.png";
@@ -694,7 +694,7 @@ moveActor1Left  (555, 5)
 	}
 	
 	
-	if (sceneCountValue == 381){
+	if (sceneCountValue == 383){
 	
 	actor2.src= "images/BRO.gif";
 	actor1.src= "images/GLC.gif";
@@ -705,7 +705,7 @@ moveActor1Left  (555, 5)
 
 	
 	
-	if (sceneCountValue == 392){
+	if (sceneCountValue == 395){
 	 
 	
 	 actor1.src= "images/GLO.png";
@@ -734,7 +734,7 @@ moveActor1Left  (555, 5)
 	}
 	
 	
-	if (sceneCountValue == 449){
+	if (sceneCountValue == 451){
 	 
 	 actor2.src= "images/BRC.gif";
 	 actor1.src= "images/GLC.gif";
@@ -840,7 +840,7 @@ moveActor2Right  (1200, 1)
 	
 	
 	
-	if (sceneCountValue == 550){
+	if (sceneCountValue == 545){
 
 	 mainCurtainMoveDown(1210,20)
 	 outputText("Curtain Down");
@@ -851,7 +851,7 @@ moveActor2Right  (1200, 1)
 
 	//stop action
 	
-	if (sceneCountValue == 590){
+	if (sceneCountValue == 585){
 	
 	outputText("End of Performance");
 
