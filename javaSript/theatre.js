@@ -707,7 +707,7 @@ moveActor1Left  (555, 5)
 	
 	if (sceneCountValue == 392){
 	 
-	 actor2.src= "images/BRO.gif";
+	
 	 actor1.src= "images/GLO.png";
 	  outputText("Both Sing");
 	
