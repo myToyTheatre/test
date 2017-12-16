@@ -463,6 +463,11 @@ function directScene()
 if (sceneCountValue == 1){
 
 outputText("Welcome to The Toy Theatre");
+	var audio = new Audio('Audio/TraviataSA.mp3');
+    audio.play()
+      outputText("Orchestra Warm-up");
+	
+	
 
 }
 
@@ -483,9 +488,9 @@ if (sceneCountValue == 10){
      
   // version with 15 secs silence then applause
 
-var audio = new Audio('Audio/TraviataSA.mp3');
-    audio.play()
-      outputText("Orchestra Warm-up");
+//var audio = new Audio('Audio/TraviataSA.mp3');
+    //audio.play()
+      //outputText("Orchestra Warm-up");
 
 }
 
