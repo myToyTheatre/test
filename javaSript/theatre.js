@@ -778,7 +778,7 @@ moveActor1Left  (555, 5)
 	 
 
 
-	 moveActor1Left (200, 10)
+	 moveActor1Left (150, 10)
  
 	
 	
