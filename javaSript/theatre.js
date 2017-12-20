@@ -39,6 +39,12 @@ var greetingsXPosition=0
 var greetingsYPosition=-130
 
 
+//more position
+
+var moreXPosition=0
+var moreYPosition= 0
+
+
 //var inc = 1;//IS THIS STILL NEEDED
 
 //initial opacity value of fader panel
