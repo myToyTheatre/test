@@ -24,6 +24,22 @@ div.toyTheatreSpace {
     
 }
 
+div.moreSpace {
+    position: relative;
+    width: 980px;
+    height: 2396px;
+    margin: 0px;
+    border: 0px solid green;
+    padding: 0px;
+    background-color: rgb(156,43,40);
+    /*color: black;*/
+    overflow: hidden;
+   
+   
+    
+}
+
+
 
 
 *.image
