@@ -739,7 +739,7 @@ moveActor1Left  (555, 5)
 	if (sceneCountValue == 437){
 	 
 	
-	 actor1.src= "images/GLOarmV2.png";
+	 actor1.src= "images/GLO.png";
 	 
 	
 
@@ -749,7 +749,7 @@ moveActor1Left  (555, 5)
 	if (sceneCountValue == 442){
 	 
 	
-	 actor1.src= "images/GLOarmV3.png";
+	 actor1.src= "images/GLO.png";
 	 
 	
 
