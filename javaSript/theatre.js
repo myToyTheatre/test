@@ -710,7 +710,7 @@ function directScene()
 
 if (sceneCountValue == 1){
 
-//audio here for iphone..works but only with Safari
+//audio here for iphone..with both safari and chrome
 	
 var audio = new Audio('Audio/canCanSound.mp3');
    audio.play();
@@ -1163,15 +1163,17 @@ actor1.src= "images/legsUp.gif";
 	}
 	
 	
-	
+	if (sceneCountValue == 395){
 
+imageTransparency("spotlight", 0);
+imageTransparency("spotShadows", 0);
 
  
 	
 	
 	
 	
-	if (sceneCountValue == 395){
+	if (sceneCountValue == 400){
 	
 	
 
