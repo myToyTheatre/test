@@ -1152,14 +1152,7 @@ actor1.src= "images/legsUp.gif";
 	
 	if (sceneCountValue == 390){
 	
-	
-
-
-	
-actor1.src= "images/legsUp.gif";
-
-
- 
+	actor1.src= "images/legsUp.gif";
 	}
 	
 	
@@ -1167,6 +1160,7 @@ actor1.src= "images/legsUp.gif";
 
 imageTransparency("spotlight", 0);
 imageTransparency("spotShadows", 0);
+	}
 
  
 	
@@ -1175,17 +1169,9 @@ imageTransparency("spotShadows", 0);
 	
 	if (sceneCountValue == 400){
 	
-	
-
-
-	
-moveImageDown ("mainCurtain", 900, 30);
+	moveImageDown ("mainCurtain", 900, 30);
  
-
-
- 
- 
-	}
+}
 	
 	
 	
