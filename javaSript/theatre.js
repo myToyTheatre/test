@@ -712,8 +712,8 @@ if (sceneCountValue == 1){
 
 //audio here for iphone
 	
-	var audio = new Audio('Audio/canCanSound.mp3');
-   audio.play()
+var audio = new Audio('Audio/canCanSound.mp3');
+   audio.play();
  
  
 
