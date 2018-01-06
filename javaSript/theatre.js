@@ -710,8 +710,10 @@ function directScene()
 
 if (sceneCountValue == 1){
 
-//var audio = new Audio('Audio/Can-can-song.mp3');
-    //audio.play()
+//audio here for iphone
+	
+	var audio = new Audio('Audio/canCanSound.mp3');
+   audio.play()
  
  
 
@@ -779,9 +781,11 @@ outputText("Start");
 	moveImageRight ("actor2", 850, 30);
  
     outputText("Monsieur Chapeaux on-stage");
+		
+		//not playing audio on iPhone here..try put in cue sheet 1
     
-    	var audio = new Audio('Audio/canCanSound.mp3');
-    audio.play()
+    	//var audio = new Audio('Audio/canCanSound.mp3');
+   // audio.play()
  
  
 	}
