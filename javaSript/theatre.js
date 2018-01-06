@@ -1062,6 +1062,26 @@ outputText("doggy on stage");
  
 	}
 	
+	
+	if (sceneCountValue == 273){
+	
+	
+
+    // doggy can can act on stage
+
+	
+		actor3.src= "images/canCanAct1.gif";
+
+ 
+	}
+	
+
+	
+	
+	
+	
+	
+	
 	if (sceneCountValue == 275){
 	
 	
@@ -1069,7 +1089,6 @@ outputText("doggy on stage");
     // doggy on stage
 
 	
-		actor3.src= "images/canCanAct1.gif";
 		imagePosition("actor3",700,350);
 	moveImageLeft ("actor3", 450, 5);
 
