@@ -756,7 +756,7 @@ imageTransparency("titleSheet",0);
 imageTransparency("fader", 0);
 imageTransparency("actor1", 0);
 imageTransparency("actor2", 1);
-imageTransparency("actor3", 1);
+imageTransparency("actor3", 0);
 imageTransparency("toyTheatreStudio", 0);
 
 outputText("Start");
@@ -790,6 +790,8 @@ outputText("Start");
 	if (sceneCountValue == 20){
 
 // doggy walking too
+		
+	imageTransparency("actor3", 1);
 	
 	moveImageRight ("actor3", 550, 60);
 	
