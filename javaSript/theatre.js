@@ -710,7 +710,7 @@ function directScene()
 
 if (sceneCountValue == 1){
 
-//audio here for iphone
+//audio here for iphone..works but only with Safari
 	
 var audio = new Audio('Audio/canCanSound.mp3');
    audio.play();
@@ -1075,7 +1075,8 @@ outputText("doggy on stage");
 
     // doggy can can act on stage
 
-	
+	imageTransparency("actor3", 0);
+		imagePosition("actor3",700,350);
 		actor3.src= "images/canCanAct1.gif";
 
  
@@ -1095,10 +1096,12 @@ outputText("doggy on stage");
     // doggy on stage
 
 	
-		imagePosition("actor3",700,350);
+		
+		imageTransparency("actor3", 1);
+
 	moveImageLeft ("actor3", 450, 5);
 
-outputText("can can  on stage");
+outputText("can can doggy on stage");
 
 
  
