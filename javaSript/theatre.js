@@ -685,9 +685,9 @@ var textValue = text;
 document.getElementById('speakText').innerHTML = textValue;
 
 }
+//this works
 
-
-function playSound(){
+//function playSound(){
 
  //var audio = new Audio('Audio/TraviataSA.mp3');
    // audio.play()
@@ -696,10 +696,25 @@ function playSound(){
    // audio.play()
      
       
-var audio = new Audio('Audio/canCanSound.mp3');
+//var audio = new Audio('Audio/canCanSound.mp3');
+   //audio.play();
+//}
+
+
+
+// try passing soundFile
+function playSound(soundFile){
+
+ //var audio = new Audio('Audio/TraviataSA.mp3');
+   // audio.play()
+	
+	//var audio = new Audio('Audio/TraviataSA.mp3');
+   // audio.play()
+     
+      
+var audio = new Audio(soundFile);
    audio.play();
 }
-
 
 
 
@@ -721,7 +736,7 @@ if (sceneCountValue == 1){
 	
 	//try function playSound()
 	
-	playSound()
+	playSound('Audio/canCanSound.mp3')
  
  
 
