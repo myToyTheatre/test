@@ -701,7 +701,7 @@ function playSound(){
 //var audio = new Audio('Audio/canCanSound.mp3');
    //audio.play();
    
-   document.getElementById('audiotag1').play(); 
+   document.getElementById('audiotag2').play(); 
 }
 
 
@@ -741,7 +741,7 @@ if (sceneCountValue == 1){
 	//try function playSound() this works
 	
 	//playSound('Audio/canCanSound.mp3')
-	playSound();
+	//playSound();
  
  
 
@@ -818,6 +818,8 @@ outputText("Start");
 		//try this no not working either
 		
 		//playSound('Audio/canCanSound.mp3')
+		
+		playSound();
  
  
 	}
