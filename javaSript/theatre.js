@@ -701,7 +701,7 @@ function playSound(){
 //var audio = new Audio('Audio/canCanSound.mp3');
    //audio.play();
    
-   document.getElementById('audiotag2').play(); 
+   document.getElementById('audiotag1').play(); 
 }
 
 
