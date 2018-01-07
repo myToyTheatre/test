@@ -687,14 +687,18 @@ document.getElementById('speakText').innerHTML = textValue;
 }
 
 
-//function playSound(){
+function playSound(){
 
- //var audio = new Audio('Audio/MIT_Symphony_Orchestra_-_14_-_La_Traviata_Brindisi_Verdi.mp3');
+ //var audio = new Audio('Audio/TraviataSA.mp3');
    // audio.play()
-      //outputText("Play Traviata");
+	
+	//var audio = new Audio('Audio/TraviataSA.mp3');
+   // audio.play()
+     
       
-
-//}
+var audio = new Audio('Audio/canCanSound.mp3');
+   audio.play();
+}
 
 
 
@@ -712,8 +716,12 @@ if (sceneCountValue == 1){
 
 //audio here for iphone..with both safari and chrome
 	
-var audio = new Audio('Audio/canCanSound.mp3');
-   audio.play();
+//var audio = new Audio('Audio/canCanSound.mp3');
+  // audio.play();
+	
+	//try function playSound()
+	
+	playSound()
  
  
 
