@@ -702,7 +702,7 @@ document.getElementById('speakText').innerHTML = textValue;
 
 
 
-// try passing soundFile
+// try passing soundFile this works too
 function playSound(soundFile){
 
  //var audio = new Audio('Audio/TraviataSA.mp3');
@@ -734,9 +734,9 @@ if (sceneCountValue == 1){
 //var audio = new Audio('Audio/canCanSound.mp3');
   // audio.play();
 	
-	//try function playSound()
+	//try function playSound() this works
 	
-	playSound('Audio/TraviataSA.mp3')
+	playSound('Audio/canCanSound.mp3')
  
  
 
