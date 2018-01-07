@@ -877,7 +877,7 @@ outputText("Start");
 	
 	
 	
-	if (sceneCountValue == 85){
+	if (sceneCountValue == 80){
 
 	fadeOut ("fader", 30)
 	 outputText("Scene Change");
