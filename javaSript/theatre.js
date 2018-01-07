@@ -736,7 +736,7 @@ if (sceneCountValue == 1){
 	
 	//try function playSound()
 	
-	playSound('Audio/canCanSound.mp3')
+	playSound('Audio/TraviataSA.mp3')
  
  
 
