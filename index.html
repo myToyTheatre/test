@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<title>myToyTheatre</title>
+
+</head>
+<!--  HTML starts here -->
+
+<link rel="stylesheet" type="text/css" href="CSS/theatreStyle.css">
+
+
+
+
+<body onload="javascript:Init()");>
+
+
+
+
+
+
+
+<script src="javaSript/theatre.js"></script>
+
+
+
+<audio id="audiotag1" src="Audio/TraviataSA.mp3" preload="auto"></audio> 
+<audio id="audiotag2" src="Audio/canCanSound.mp3" preload="auto"></audio> 
+
+
+
+
+<!---container for ToyTheatre Starts here-->
+
+<div class="toyTheatreSpace">
+   
+     <!--<div class="theatreContainer">-->
+
+<!-- start of theatre components -->
+
+    <!--<div class="theatreComponents">-->
+       <!--<div id="box1">-->
+        
+         <div><img class="image" id="streetBack" src="images/streetSceneBack.png"/></div>
+         <div><img class="image" id="streetFront" src="images/streetSceneFront.png"/></div>
+         
+          <div><img class="image" id="baseStage" src="images/baseStage.png"/></div>
+    	
+    	<div><img class="image" id="spotlight" src= "images/spotLight.png"/></div>
+    	<div><img class="image" id="spotShadows" src= "images/spotShadows.png"/></div>
+    	<div><img class="image" id="showBubble" src= "images/showBubble.png"/></div>
+    	<div><img class="image" id= "actor3" src ="images/doggy2.gif"/></div>
+    
+    	<div><img class="image" id= "actor1" src ="images/canCanR.gif"/></div>
+    
+    	<div><img class="image" id= "mainCurtain" src ="images/curtain4.png"/></div>
+    	
+    	
+    	
+    	<div><img class="image" id= "proscenium" src ="images/proscenium.png"/></div>
+    	<div><img class="image" id= "manHat" src ="images/manHat.png"/></div>
+    	
+    	
+    		
+    		<div><img class="image" id= "actor2" src ="images/manWalking.gif"/></div>
+        <div><img class="image" id= "audience" src ="images/audience.png"/></div>
+       
+     
+        <<div><img class="image" id= "credits" src ="images/Credits.png"/></div>
+        
+        
+         
+          
+               
+                
+                 <div><img class="image" id= "fader" src ="images/fader.png"/></div>
+                 
+                 <div><img class="image" id= "titleSheet" src ="images/titleSheet.png"/></div>
+                 
+                  <div><img class="image" id= "toyTheatreStudio" src ="images/toyTheatreStudio.png"/></div>
+           
+       </div>
+       
+     </div>
+ 
+ 
+<!-- end of theatre components -->
+ 
+<!-- start of theatre controls-->
+
+
+
+<div class= "theatreOutputs">
+     <!--<img src="images/cueSmall.png "/>-->
+
+<label>&nbsp;</label>   
+<label>Cue Sheet:</label>  
+<label id="sceneCount"></label>
+<label>&nbsp;</label>  
+<label id="speakText"></label>
+
+</div>
+
+
+
+
+
+ 
+ 
+<div class="theatreControls">
+
+
+
+       
+     <input type="image" src="images/start.png" onclick="startMainTimer()"></>
+    <input type="image" src="images/stop.png" onclick="stopMainTimer()"></>
+      <input type="image" src="images/reset.png" onclick="resetScene()"></>
+            
+            <!-- 
+
+            
+            
+            <input type="image" src="images/more.png" onclick="resetScene()"></>
+            
+            
+
+             -->
+             
+             
+              <input type="image" src="images/more.png" onclick="more()"></>
+      
+  
+      
+</div> 
+
+
+
+
+
+
+
+
+<div class="footer1">
+   
+
+<img src="images/toyTheatreIconSmall.png" />
+
+     
+</div>
+
+
+
+
+<!---container for ToyTheatre ends here-->
+
+<div class="footer">
+   
+<a>Made with toyTheatre Studio 2018  </a>
+
+
+     
+</div>
+
+
+
+</body>
+</html>
