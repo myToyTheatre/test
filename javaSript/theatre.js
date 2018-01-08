@@ -741,7 +741,7 @@ if (sceneCountValue == 1){
 	//try function playSound() this works
 	
 	//playSound('Audio/canCanSound.mp3')
-	//playSound();
+	playSound();
  
  
 
@@ -819,7 +819,7 @@ outputText("Start");
 		
 		//playSound('Audio/canCanSound.mp3')
 		
-		playSound();
+		//playSound();
  
  
 	}
