@@ -1181,7 +1181,7 @@ outputText("Can can dancers on stage again");
  
 	}
 	
-	if (sceneCountValue == 380){
+	if (sceneCountValue == 375){
 	
 	
 	
@@ -1207,8 +1207,8 @@ actor1.src= "images/legsUp.gif";
 if (sceneCountValue == 395){
 	
 	
-	fadeOut('spotShadows', 30);
-	fadeOut('spotlight', 30);
+	fadeIn('spotShadows', 30);
+	fadeIn('spotlight', 30);
 
 	outputText("Spotlight down ");
 
