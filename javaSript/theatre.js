@@ -1140,7 +1140,7 @@ outputText("Doggy act on stage");
 
 outputText("Can can Doggy Act on stage");
 
-
+actor1.src= "images/canCanL.gif";
  
 	}
 	
@@ -1201,8 +1201,8 @@ actor1.src= "images/legsUp.gif";
 	
 if (sceneCountValue == 395){
 	
-	imageTransparency("spotlight", 1);
-imageTransparency("spotShadows", 1);
+	imageTransparency("spotlight", 0);
+imageTransparency("spotShadows", 0);
 	outputText("Spotlight down ");
 
 
