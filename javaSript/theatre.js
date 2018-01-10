@@ -1211,6 +1211,9 @@ if (sceneCountValue == 395){
 	fadeIn('spotlight', 30);
 
 	outputText("Spotlight down ");
+	
+	//imageTransparency("spotlight", 1);
+//imageTransparency("spotShadows", 1);
 
 
 
