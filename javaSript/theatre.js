@@ -1026,7 +1026,7 @@ imageTransparency("spotShadows", 1);
 	}
 	
 	
-	if (sceneCountValue == 170){
+	if (sceneCountValue == 165){
 	
 	
 	imageTransparency("actor3", 1);
@@ -1035,7 +1035,7 @@ imageTransparency("spotShadows", 1);
 	
  
 
-	outputText("Mon chien!");
+	outputText("Mon Chien!");
 
  
 	}
@@ -1199,10 +1199,17 @@ actor1.src= "images/legsUp.gif";
 }
 	
 	
+if (sceneCountValue == 395){
 	
-	
-	
+	imageTransparency("spotlight", 1);
+imageTransparency("spotShadows", 1);
+	outputText("Spotlight down ");
 
+
+
+}	
+	
+	
  
 	
 	
