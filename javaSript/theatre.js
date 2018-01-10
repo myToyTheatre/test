@@ -982,7 +982,7 @@ actor3.src= "images/doggy2.gif";
 	
 	
 	
-	if (sceneCountValue == 110){
+	if (sceneCountValue == 113){
 	
 	
 	actor2.src= "images/manStop1.png";
@@ -990,7 +990,7 @@ actor3.src= "images/doggy2.gif";
 	}
 	
 	
-	if (sceneCountValue == 115){
+	if (sceneCountValue == 116){
 	
 	
 	actor2.src= "images/manStop2.png";
