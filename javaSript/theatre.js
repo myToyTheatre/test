@@ -35,7 +35,7 @@ imagePosition("toyTheatreStudio",0,0);
 imageTransparency("toyTheatreStudio", 1);
 outputText("Welcome to Toy Theatre");
 
-outputText("init")
+outputText("Set up complete")
 
 //end of init function
 
@@ -741,7 +741,7 @@ if (sceneCountValue == 1){
 	//try function playSound() this works
 	
 	//playSound('Audio/canCanSound.mp3')
-	playSound();
+	
  
  
 
@@ -789,9 +789,9 @@ imageTransparency("actor2", 1);
 imageTransparency("actor3", 0);
 imageTransparency("toyTheatreStudio", 0);
 
-outputText("Start");
+outputText("Begin performance");
 
-
+playSound();
 
 
 
@@ -956,7 +956,7 @@ actor3.src= "images/doggy2.gif";
 	if (sceneCountValue == 95){
 
 	fadeIn ("fader", 30)
-	 outputText("inside Moulin Rouge");
+	 outputText("Inside Moulin Rouge");
  
 	}
 	
@@ -1035,7 +1035,7 @@ imageTransparency("spotShadows", 1);
 	
  
 
-	outputText("mon chien!");
+	outputText("Mon chien!");
 
  
 	}
@@ -1047,7 +1047,7 @@ imageTransparency("spotShadows", 1);
 //dog walks across stage
 
 	moveImageRight ("actor3", 900, 40);
-		outputText("mon Dieu!");
+		outputText("Mon Dieu!");
 
 
  
@@ -1096,7 +1096,7 @@ imageTransparency("spotShadows", 1);
 		actor3.src= "images/doggy2StopRight.png";
 imagePosition("actor3",700,600);
 
-outputText("doggy on stage");
+//outputText("doggy on stage");
 
 
  
@@ -1135,7 +1135,7 @@ outputText("doggy on stage");
 
 	moveImageLeft ("actor3", 450, 5);
 
-outputText("can can doggy on stage");
+//outputText("can can doggy on stage");
 
 
  
@@ -1184,17 +1184,18 @@ actor1.src= "images/legsUp.gif";
  
 	}
 	
+	
+	
 	if (sceneCountValue == 390){
 	
-	actor1.src= "images/legsUp.gif";
-	}
-	
-	
-	if (sceneCountValue == 395){
+	moveImageRight ("actor1", 820, 5);
 
-imageTransparency("spotlight", 0);
-imageTransparency("spotShadows", 0);
-	}
+}
+	
+	
+	
+	
+	
 
  
 	
@@ -1744,7 +1745,7 @@ imageTransparency("spotShadows", 0);
 
 	//stop action
 	
-	if (sceneCountValue == 450){
+	if (sceneCountValue == 500){
 	
 	outputText("End of Performance");
 
