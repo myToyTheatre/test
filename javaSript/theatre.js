@@ -1207,8 +1207,8 @@ actor1.src= "images/legsUp.gif";
 if (sceneCountValue == 395){
 	
 	
-	fadeIn('spotShadows', 30);
-	fadeIn('spotlight', 30);
+	fadeIn("spotShadows", 30);
+	fadeIn("spotlight", 30);
 
 	outputText("Spotlight down ");
 	
