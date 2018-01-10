@@ -1064,7 +1064,7 @@ imageTransparency("spotShadows", 1);
      actor1.src= "images/canCanR.gif";
 
 	moveImageLeft ("actor1", 820, 10);
-		outputText("act 1 on stage");
+		outputText("Can can dancers on stage");
 
 
  
@@ -1079,6 +1079,7 @@ imageTransparency("spotShadows", 1);
     // can can dancers off stage fast ..lower number higher speed
 
 	moveImageLeft ("actor1", 820, 10);
+		outputText("Can can dancers off stage");
 		
 
 
@@ -1096,7 +1097,7 @@ imageTransparency("spotShadows", 1);
 		actor3.src= "images/doggy2StopRight.png";
 imagePosition("actor3",700,600);
 
-//outputText("doggy on stage");
+outputText("Doggy act on stage");
 
 
  
@@ -1112,6 +1113,8 @@ imagePosition("actor3",700,600);
 	imageTransparency("actor3", 0);
 		imagePosition("actor3",700,350);
 		actor3.src= "images/canCanAct1.gif";
+		
+		
 
  
 	}
@@ -1135,7 +1138,7 @@ imagePosition("actor3",700,600);
 
 	moveImageLeft ("actor3", 450, 5);
 
-//outputText("can can doggy on stage");
+outputText("Can can Doggy Act on stage");
 
 
  
@@ -1155,7 +1158,7 @@ imagePosition("actor3",700,600);
 	moveImageRight ("actor1", 820, 5);
 	moveImageRight ("actor3", 600, 5);
 		
-
+outputText("Can can dancers on stage again");
 
  
 	}
@@ -1189,6 +1192,9 @@ actor1.src= "images/legsUp.gif";
 	if (sceneCountValue == 390){
 	
 	moveImageRight ("actor1", 820, 5);
+		
+		outputText("Can can dancers off stage ");
+
 
 }
 	
@@ -1205,6 +1211,7 @@ actor1.src= "images/legsUp.gif";
 	if (sceneCountValue == 400){
 	
 	moveImageDown ("mainCurtain", 900, 30);
+		outputText("Curtain down");
  
 }
 	
@@ -1745,7 +1752,7 @@ actor1.src= "images/legsUp.gif";
 
 	//stop action
 	
-	if (sceneCountValue == 500){
+	if (sceneCountValue == 450){
 	
 	outputText("End of Performance");
 
