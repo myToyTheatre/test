@@ -35,7 +35,7 @@ imagePosition("toyTheatreStudio",0,0);
 imageTransparency("toyTheatreStudio", 1);
 outputText("Welcome to Toy Theatre");
 
-outputText("Set up complete")
+//outputText("Set up complete")
 
 //end of init function
 
@@ -790,9 +790,11 @@ imageTransparency("actor2", 1);
 imageTransparency("actor3", 0);
 imageTransparency("toyTheatreStudio", 0);
 
-outputText("Begin performance");
+
 
 	fadeIn ("titleSheet", 30)
+	
+	outputText("Begin performance");
 
 playSound();
 
@@ -1204,8 +1206,10 @@ actor1.src= "images/legsUp.gif";
 	
 if (sceneCountValue == 395){
 	
-	imageTransparency("spotlight", 0);
-imageTransparency("spotShadows", 0);
+	
+	fadeOut('spotShadows', 30);
+	fadeOut('spotlight', 30);
+
 	outputText("Spotlight down ");
 
 
