@@ -763,7 +763,7 @@ imagePosition("manHat", 0,0);
 imagePosition("audience", 0, 800);
 imagePosition("showBubble", 0,0);
 imagePosition("credits", 0,0);
-imagePosition("titleSheet", 0,0);
+imagePosition("titleSheet",0,-50);
 imagePosition("fader",0,0);
 imagePosition("actor1",0,0);
 imagePosition("actor2",-500,550);
