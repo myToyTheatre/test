@@ -811,9 +811,9 @@ playSound();
 
 	actor2.src= "images/manWalking.gif";
 	
-	moveImageRight ("actor2", 850, 30);
+	//moveImageRight ("actor2", 850, 30);
  
-    outputText("Monsieur Chapeaux on-stage");
+    //outputText("Monsieur Chapeaux on-stage");
 		
 		//not playing audio on iPhone here..try put in cue sheet 1
     
@@ -827,6 +827,16 @@ playSound();
 		//playSound();
  
  
+	}
+	
+	// problems with gif sometime not activated on iphone so separating move from image set
+	
+	if (sceneCountValue == 6){
+		
+		moveImageRight ("actor2", 850, 30);
+ 
+    outputText("Monsieur Chapeaux on-stage");
+		
 	}
 	
 	
@@ -1059,7 +1069,7 @@ imageTransparency("spotShadows", 1);
 	}
 	
 	
-	if (sceneCountValue == 215){
+	if (sceneCountValue == 214){
 	
 	//can dancers on stage
 
@@ -1068,12 +1078,31 @@ imageTransparency("spotShadows", 1);
      //can can dancers facing right
      actor1.src= "images/canCanR.gif";
 
-	moveImageLeft ("actor1", 820, 10);
-		outputText("Can can dancers on stage");
+	//moveImageLeft ("actor1", 820, 10);
+		//outputText("Can can dancers on stage");
 
 
  
 	}
+	
+	// separate image switch from moveleft
+	
+	if (sceneCountValue == 215){
+	
+	//can dancers on stage
+
+     //imageTransparency("actor1", 1);
+     
+     //can can dancers facing right
+     //actor1.src= "images/canCanR.gif";
+
+	moveImageLeft ("actor1", 820, 10);
+		outputText("Can Can Dancers on stage");
+
+
+ 
+	}
+	
 	
 	
 	
@@ -1158,7 +1187,7 @@ actor1.src= "images/canCanL.gif";
 	
 
     // can can dancers of stage again facing left
-      actor1.src= "images/canCanL.gif";
+      //actor1.src= "images/canCanL.gif";
 
 	moveImageRight ("actor1", 820, 5);
 	moveImageRight ("actor3", 600, 5);
