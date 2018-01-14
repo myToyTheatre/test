@@ -1113,7 +1113,7 @@ imageTransparency("spotShadows", 1);
     // can can dancers off stage fast ..lower number higher speed
 
 	moveImageLeft ("actor1", 820, 10);
-		outputText("Can can dancers off stage");
+		outputText("Can Can Dancers off stage");
 		
 
 
@@ -1131,7 +1131,7 @@ imageTransparency("spotShadows", 1);
 		actor3.src= "images/doggy2StopRight.png";
 imagePosition("actor3",700,600);
 
-outputText("Doggy act on stage");
+outputText("Doggy Act on stage");
 
 
  
@@ -1172,7 +1172,7 @@ outputText("Doggy act on stage");
 
 	moveImageLeft ("actor3", 450, 5);
 
-outputText("Can can Doggy Act on stage");
+outputText("Can Can Doggy Act on stage");
 
 actor1.src= "images/canCanL.gif";
  
@@ -1192,7 +1192,7 @@ actor1.src= "images/canCanL.gif";
 	moveImageRight ("actor1", 820, 5);
 	moveImageRight ("actor3", 600, 5);
 		
-outputText("Can can dancers on stage again");
+outputText("Can Can dancers on stage");
 
  
 	}
@@ -1227,7 +1227,7 @@ actor1.src= "images/legsUp.gif";
 	
 	moveImageRight ("actor1", 820, 5);
 		
-		outputText("Can can dancers off stage ");
+		outputText("Can Can Dancers off stage ");
 
 
 }
